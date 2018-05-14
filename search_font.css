@@ -1,0 +1,16 @@
+@font-face { 
+    font-family: 'AVENGER'; 
+    src: url(./AVENGER.ttf) format('truetype'); 
+} 
+
+body { 
+    font-family: AVENGER; 
+}
+input {
+    font-family: AVENGER; 
+}
+button { 
+    font-family: AVENGER; 
+}
+
+ 
