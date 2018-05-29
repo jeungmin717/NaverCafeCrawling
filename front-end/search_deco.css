@@ -11,7 +11,7 @@ div {
     border: 10px solid  #700b0b;
     background: #700b0b;
 }
-input {
+input[type=text]{
     font-size: 16px;
     width: 470px;
     padding: 10px;
@@ -19,7 +19,7 @@ input {
     outline: none;
     float: left;
 }
-button {
+input[type=button] {
     width: 80px;
     height: 100%;
     border: 0px;

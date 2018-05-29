@@ -1,41 +1,53 @@
-<%@ page language="java" contentType="text/html"; charset="UTF-8" pageEndocing="UTF-8"%>
-
-<!DOCTYPE html>
 <html>
+
+<head>
+    <title>중고나라 도우미 서비스</title>
+    <meta http-equiv="Content-Type" content="text/html" ; charset=UTF-8>
+    <meta <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="search_deco.css">
+    <link href="search_font.css" rel="stylesheet" type="text/css" />
     
-    <head>
-        <meta http-equiv="Content-Type" content="text/html"; charset=UTF-8>
+    <script language=javascript>
+                
+        function data_Sending() {
 
-        <link rel="stylesheet" type="text/css" href="search_deco.css">
-        <link href="search_font.css" rel="stylesheet" type="text/css"/>
-        <script language=javascript>
+            var incomming_data = Search_form.input_data.value;
+            var ip_data = "127.0.0.1:3000/loading";
+            var final_data = incomming_data + ip_data;
+            
+            document.Search_form.input_data.value = "final_data";
+            document.Search_form.submit();
+        }
+    </script>
+</head>
 
-                var temp; 
-
-                function data_Sending()
-                {
-                    if(document.frm.input.value==""){
-                        alert("찾고자 하는 상품을 입력하세요");
-                        document.forms.search_item.focus();
-                        return false;
-                    }
-                    var input = document.getElementById("input").value; 
-                    temp = input;
-                   // window.open("./loading_frame.html","로딩중","width=100%, height=100%, toolbar=no, menubar=no, scrollbars=no, resizable=yes")
-                }
-
-        </script>
-    </head>
-    <body>
-        <center>
-            <br><br><br><br><br><br><br><br><br><br>
-            <font size = 10 color= #700b0b >Second Hand AVENGER</font> <br><br>
+<body>
+    <center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <font size=10 color=# 700b0b>Second Hand AVENGER</font>
+        <br>
+        <br>
         <div>
-            <form action="" method="post" name="frm" onsubmit="return data_Sending()">
-                <input type="text" id="input" name="search_item" required="required" placeholder="Delegate to JARVIS . . .">
-                <button  name="submit" onclick="data_Sending()">Search</button>
+            <form name="Search_form" action="127.0.0.1:3000" method="post" onsubmit="return data_Sending()">
+                <input type="text" id="input" name="input_data" required="required" placeholder="Delegate to JARVIS . . .">
+                <input type="button" value="Search" name="submit" onclick="data_Sending()">
             </form>
         </div>
     </center>
-    </body>
-</html> 
+    <script>
+        //아이폰6를 같이 
+        //<form action="127.0.0.1:3000/loading/아이폰6" 여기에 이걸 붙여서 
+        //서버에 보낸다.
+    </script>
+</body>
+
+</html>
