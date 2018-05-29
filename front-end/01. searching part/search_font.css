@@ -6,10 +6,7 @@
 body { 
     font-family: AVENGER; 
 }
-input {
-    font-family: AVENGER; 
-}
-button { 
+input[type=button] { 
     font-family: AVENGER; 
 }
 
