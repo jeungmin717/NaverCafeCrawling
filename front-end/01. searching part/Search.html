@@ -1,25 +1,35 @@
+<!DOCTYPE html>
+
 <html>
 
 <head>
-    <title>중고나라 도우미 서비스</title>
     <meta http-equiv="Content-Type" content="text/html" ; charset=UTF-8>
-    <meta <meta charset="utf-8">
+
     <link rel="stylesheet" type="text/css" href="search_deco.css">
     <link href="search_font.css" rel="stylesheet" type="text/css" />
     <link href="input_font.css" rel="stylesheet" type="text/css" />
-    
     <script language=javascript>
-                
-        function data_Sending() {
 
+
+
+        function data_Sending() {
+           
             var incomming_data = Search_form.input_data.value;
-            var ip_data = "127.0.0.1:3000/loading";
-            var final_data = incomming_data + ip_data;
-            
-            document.Search_form.input_data.value = "final_data";
-            document.Search_form.submit();
+            var ip_data = "127.0.0.1:3000/loading/";
+            var final_data = ip_data + incomming_data;
+
+
             document.Search_form.input_data.value = "";
+
+            recieve_ex.exper.value = final_data;
+            
+            document.Search_form.combine_data.value = final_data;
+            
+            document.Search_form.combine_data.submit();
+            
+            
         }
+
     </script>
 </head>
 
@@ -37,19 +47,21 @@
         <br>
         <font size=10 color=# 700b0b>Second Hand AVENGER</font>
         <br>
-        <br>
+        <br><!--onsubmit="return data_Sending()"--><!--placeholder="Delegate to JARVIS . . ."-->
         <div>
-            <form name="Search_form" action="127.0.0.1:3000" method="post" onsubmit="return data_Sending()">
-                <input type="text" id="input" name="input_data" required="required" placeholder="Delegate to JARVIS . . .">
-                <input type="button" value="Search" name="submit" onclick="data_Sending()">
+            <form action="127.0.0.1" method="post" name="Search_form" >
+                <input type="text" id="input" name="input_data" required="required" >
+                <input type="hidden" name="combine_data">
+                <input type="submit" value="Search" name="submit" onclick="data_Sending();">
+            </form>
+
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <form name="recieve_ex">
+                <input type="text" name="exper">
+
             </form>
         </div>
     </center>
-    <script>
-        //아이폰6를 같이 
-        //<form action="127.0.0.1:3000/loading/아이폰6" 여기에 이걸 붙여서 
-        //서버에 보낸다.
-    </script>
 </body>
 
 </html>
