@@ -19,7 +19,7 @@ input[type=text]{
     outline: none;
     float: left;
 }
-input[type=submit] {
+input[type=button] {
     width: 80px;
     height: 100%;
     margin-top:10px;

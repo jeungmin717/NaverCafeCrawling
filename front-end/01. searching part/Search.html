@@ -3,6 +3,7 @@
 <html>
 
 <head>
+    <title>중고나라 서비스 웹</title>
     <meta http-equiv="Content-Type" content="text/html" ; charset=UTF-8>
 
     <link rel="stylesheet" type="text/css" href="search_deco.css">
@@ -26,8 +27,15 @@
             document.Search_form.combine_data.value = final_data;
             
             document.Search_form.combine_data.submit();
+            loading_page();
             
             
+        }
+
+        function loading_page(str) {
+            
+            location.replace(str);
+
         }
 
     </script>
@@ -49,10 +57,11 @@
         <br>
         <br><!--onsubmit="return data_Sending()"--><!--placeholder="Delegate to JARVIS . . ."-->
         <div>
-            <form action="127.0.0.1" method="post" name="Search_form" >
+            <!--action="127.0.0.1" method="post"-->
+            <form  name="Search_form" >
                 <input type="text" id="input" name="input_data" required="required" >
                 <input type="hidden" name="combine_data">
-                <input type="submit" value="Search" name="submit" onclick="data_Sending();">
+                <input type="button" value="Search" name="submit" onclick="loading_page('../02. loading part/loading-page2.html');">
             </form>
 
             <br><br><br><br><br><br><br><br><br><br><br>
