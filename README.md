@@ -29,7 +29,8 @@
 ![image](https://user-images.githubusercontent.com/34965935/43257766-9caeeb74-910b-11e8-9bdd-c522b35928b8.png)
 
 
-R분석
+R분석 
+=============
 
 ![image](https://user-images.githubusercontent.com/34965935/43257838-d420a624-910b-11e8-9908-5f2bc19df2e8.png)
 ![image](https://user-images.githubusercontent.com/34965935/43257856-dd3e3f6e-910b-11e8-86c2-11cf312e8dbf.png)
