@@ -1,3 +1,7 @@
+
+#지도기반 중고나라 웹서비스
+### 이동호,김정민,조영일,여원재
+
 ![image](https://user-images.githubusercontent.com/34965935/43257650-50eb59c0-910b-11e8-89ed-ba5b14973574.png)
 
 
@@ -26,9 +30,6 @@
 ![image](https://user-images.githubusercontent.com/34965935/43257766-9caeeb74-910b-11e8-9bdd-c522b35928b8.png)
 
 
-![image](https://user-images.githubusercontent.com/34965935/43257806-b751d64e-910b-11e8-9b9d-a11549da7644.png)
-
-
 R분석
 
 ![image](https://user-images.githubusercontent.com/34965935/43257838-d420a624-910b-11e8-9908-5f2bc19df2e8.png)
@@ -38,3 +39,26 @@ R분석
 ![image](https://user-images.githubusercontent.com/34965935/43257877-ed826ef4-910b-11e8-9546-505fb1f023ac.png)
 
 ![image](https://user-images.githubusercontent.com/34965935/43257873-eb5c7f52-910b-11e8-99ae-21f463ba2000.png)
+
+
+![image](https://user-images.githubusercontent.com/34965935/43257999-45966244-910c-11e8-8e0e-1de15b5502ef.png)
+
+![image](https://user-images.githubusercontent.com/34965935/43258009-511e7a5c-910c-11e8-8e86-b833ec1a249e.png)
+
+![image](https://user-images.githubusercontent.com/34965935/43258024-5a67b45c-910c-11e8-831a-daf0817e84aa.png)
+
+![image](https://user-images.githubusercontent.com/34965935/43258012-53468374-910c-11e8-8533-eec8f12d18d9.png)
+![image](https://user-images.githubusercontent.com/34965935/43258017-5552731c-910c-11e8-95e2-7efe09d1e8c1.png)
+
+![image](https://user-images.githubusercontent.com/34965935/43258031-60804d54-910c-11e8-863a-60a121f45a3c.png)
+![image](https://user-images.githubusercontent.com/34965935/43258044-68577908-910c-11e8-96ef-bd62ccbb66e7.png)
+
+![image](https://user-images.githubusercontent.com/34965935/43258037-64c7093e-910c-11e8-8cf2-7bdc47608fdc.png)
+
+![image](https://user-images.githubusercontent.com/34965935/43258050-6b2384d8-910c-11e8-9308-95c2a32d2b8e.png)
+
+
+
+[최종결과]
+![image](https://user-images.githubusercontent.com/34965935/43257806-b751d64e-910b-11e8-9b9d-a11549da7644.png)
+
